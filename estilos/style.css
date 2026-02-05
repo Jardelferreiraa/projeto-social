@@ -20,18 +20,33 @@ main {
     position: relative;
 }
 #tel {
-    position: absolute;
+    position: absolute; /* Centraliza na tela */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* Centraliza na tela */
     height: 630px;
     width: 314px;
-    background: url('../imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png'); /* Imagem do frame do iPhone */
+
 }
-#tela {
+#tea {
     position: relative;
     top: 80px;
     left: 22px;
     width: 266px;
     height: 469px;
+}
+#redes {
+    text-align: right;
+}
+#redes img:hover {
+    border: white 2px solid;
+}
+#redes img {
+    width: 50px; /*Largura*/
+    height: 50px; /*Altura*/
+    border-radius: 50%; /*Deixa a imagem redonda*/
+    margin: 2px; /*Espaçamento entre as imagens*/
+    box-shadow: 2px 2px 5px #0000002e; /*Sombra*/
+    box-sizing: border-box; /*Inclui a borda na largura e altura totais*/
 }
